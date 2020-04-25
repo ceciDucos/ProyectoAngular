@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule} from '@angular/common/http';
+import { UserService } from './user.service';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,13 +18,14 @@ import { ListProductsComponent } from './list-products/list-products.component';
     FooterBarComponent,
     BodyUpComponent,
     BodyDownComponent,
-    ListProductsComponent
+    ListProductsComponent //componente para mostrar datos
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule //modulo para hacer llamadas http
   ],
-  providers: [],
+  providers: [UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

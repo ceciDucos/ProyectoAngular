@@ -10,7 +10,6 @@ const routes: Routes = [
   { path: 'bar-nav', component: BarNavComponent },
   { path: 'body-up', component: BodyUpComponent },
   { path: 'body-down', component: BodyDownComponent },
-  { path: 'body-down/:tipo', component: BodyDownComponent },
   { path: 'footer-bar', component: FooterBarComponent },
   { path: 'list-products', component: ListProductsComponent },
   { path: 'list-products/:op', component: ListProductsComponent }
