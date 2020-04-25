@@ -1,1 +1,33 @@
-<p>body-down works!</p>
+<div class="recepie_area plus_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single_recepie text-center">
+                    <div class="recepie_thumb">
+                        <img class="ajuste_size" src="../../assets/img/vinos_tintos.jpg">
+                    </div>
+                    <h3>Red wine</h3>
+                    <a class="line_btn" [routerLink]="['/list-products/tintos']" [queryParams]="{debug: true}" fragment="education">View all</a>
+                </div>
+            </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single_recepie text-center">
+                    <div class="recepie_thumb">
+                        <img class="ajuste_size" src="../../assets/img/vinos_rosados.jpg">
+                    </div>
+                    <h3>Rose wine</h3>
+                    <a class="line_btn" [routerLink]="['/list-products/rosados']" [queryParams]="{debug: true}" fragment="education">View all</a>
+                </div>
+            </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single_recepie text-center">
+                    <div class="recepie_thumb">
+                        <img class="ajuste_size" src="../../assets/img/vinos_blancos.jpg">
+                    </div>
+                    <h3>White wine</h3>
+                    <a class="line_btn" [routerLink]="['/list-products/blancos']" [queryParams]="{debug: true}" fragment="education">View all</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

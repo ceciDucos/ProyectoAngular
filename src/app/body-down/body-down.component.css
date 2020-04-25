@@ -1,0 +1,34 @@
+.recepie_area.plus_padding {
+    padding-bottom: 150px;
+}
+.recepie_area {
+    padding-top: 100px;
+}
+.single_recepie {
+    margin-bottom: 80px;
+}
+.text-center {
+    text-align: center !important;
+}
+.recepie_thumb {
+    max-width: 500px;
+    max-height: 500px;
+    overflow: hidden;
+    margin: auto;
+}
+.ajuste_size{
+    margin: 20%;
+}
+.line_btn {
+    display: inline-block;
+    font-size: 13px;
+    color: #000000;
+    border: 1px solid #ffc000;
+    text-transform: capitalize;
+    padding: 13px 34px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}

@@ -2,19 +2,20 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 
 @Component({
-  selector: 'app-body-down',
-  templateUrl: './body-down.component.html',
-  styleUrls: ['./body-down.component.css']
+  selector: 'app-list-products',
+  templateUrl: './list-products.component.html',
+  styleUrls: ['./list-products.component.css']
 })
-export class BodyDownComponent implements OnInit {
+
+export class ListProductsComponent implements OnInit {
   opcion;
   tipoVino;
   constructor(private router: Router,
 
     private route: ActivatedRoute) {
       this.route.params.subscribe(params => {
-        if (params['tipo']) {
-          this.opcion = params['tipo'];
+        if (params['op']) {
+          this.opcion = params['op'];
         }
         if(this.opcion === "tintos" ){
           this.tipoVino = "TINTOS"
@@ -28,3 +29,5 @@ export class BodyDownComponent implements OnInit {
   ngOnInit(): void {
   }
 }
+
+

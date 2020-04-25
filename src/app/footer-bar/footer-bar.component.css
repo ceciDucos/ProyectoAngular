@@ -1,0 +1,104 @@
+.footer{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #000000;
+}
+.footer_top {
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+.contenedor{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contenedor2{
+    max-width: 960px;
+}
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.footer_widget {
+    margin-bottom: 30px;
+}
+.footer_title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    font-size: 13px;
+    line-height: 42px;
+}
+li{
+    list-style: none;
+}
+
+a{
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration:  white;
+    transition: 0.3s;
+}
+.copy-right_text {
+    padding-bottom: 150px;
+    background: #000;
+}
+.footer_border {
+    padding-bottom: 30px;
+}
+.align-items-center{
+    align-items: center !important;
+}
+.copy_right {
+    font-size: 15px;
+    color: #919191;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: left;
+}
+p{
+    line-height: 28px;
+    font-family: "Roboto", sans-serif;
+}
+.socail_links {
+    text-align: right;
+}
+.imagen-links {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 100px;
+    width: 100px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-color: white ;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+.imagen-links-twitter {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 100px;
+    width: 100px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-color: white ;
+    background-position: 50%;
+    border-radius: 100%;
+    background-size: 100% auto;
+}
+
